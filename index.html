@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Прыгаем с Оранжевым Котом</title>
+
+
+
+ </head>
+ <body>
+    <main>
+    <div>
+        <h1>Прыгаем с Оранжевым Котом</h1>
+        <button>1-2 уровни</button>
+        <button>2-3 уровни</button>
+    </div>
+    </main>
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC&display=swap');
+    body {
+        font-family: "Chiron GoRound TC", sans-serif;
+        background-image: url(background.png);
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    main {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    h1 {
+        color: chocolate;
+    }
+
+    button {
+        border: solid transparent;
+        width: 40%;
+        height: 10vh;
+        font-size: larger;
+        color: aliceblue;
+        border-radius: 50px;
+        background-color: #5aacc5;
+        box-shadow: 0 0 3px #64beda;
+        transition: all 0.5s ease;
+
+        &:hover {
+            box-shadow: 0 0 25px #64beda;
+            background-color: #61bcd8;
+        }
+
+        &:active {
+            box-shadow: 0 0 5px #64beda;
+            background-color: #4c91a7;            
+        }
+    }
+  </style>
+ </body>
+</html>
